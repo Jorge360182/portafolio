@@ -1,0 +1,71 @@
+form {
+    font-size: 1.2rem;
+}
+form label {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+}
+
+input,
+textarea, input:focus,
+textarea:focus {
+    width: 100%;
+    padding: 1rem;
+    color: white;
+    border: none;
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: none;
+    cursor: pointer;
+    margin: 1rem 0 2rem;
+}
+
+
+textarea {
+    resize: none
+}
+
+form button {
+    background-color: rgb(70, 0, 0);
+    color: var(--white);
+    margin: 3rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color .3s ease;
+    color: white;
+}
+
+form button:hover {
+    background-color: black;
+    color: white;
+}
+
+#social-media img {
+    border-radius: 10rem;
+    background-color: var(--white);
+    transition: all ease .3s;
+    margin: 1rem;
+}
+
+#social-media a {
+    text-decoration: none;
+}
+
+#linkedin:hover {
+    background-color: #0077b5;
+}
+
+#github:hover {
+    background-color: rgb(187, 203, 255);
+}
+#facebook:hover {
+    background-color: rgb(66 103 178);
+}
+
+#contact {
+    box-shadow: 0px 0px 10px 1px rgb(240, 1, 1);
+}
+
