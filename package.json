@@ -4,6 +4,7 @@
   "description": "Mi portafolio",
   "main": "index.html",
   "scripts": {
+    "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +18,18 @@
   },
   "homepage": "https://github.com/Jorge360182/portafolio#readme",
   "dependencies": {
+    "css-loader": "^6.8.1",
     "eins-modal": "^2.2.2",
+    "html-loader": "^4.2.0",
     "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "css-minimizer-webpack-plugin": "^5.0.0",
+    "html-webpack-plugin": "^5.5.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "terser-webpack-plugin": "^5.3.9",
+    "webpack": "^5.85.1",
+    "webpack-cli": "^5.1.3"
   }
 }
