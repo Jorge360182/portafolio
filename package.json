@@ -1,0 +1,23 @@
+{
+  "name": "proyectos",
+  "version": "1.0.0",
+  "description": "Mi portafolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jorge360182/portafolio.git"
+  },
+  "author": "Jorge Eduardo Herrera Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jorge360182/portafolio/issues"
+  },
+  "homepage": "https://github.com/Jorge360182/portafolio#readme",
+  "dependencies": {
+    "eins-modal": "^2.2.2",
+    "normalize.css": "^8.0.1"
+  }
+}
