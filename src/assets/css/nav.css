@@ -107,3 +107,26 @@
     color: white;
 }
 
+/* se agrego */
+#navbar.navbar-fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+#navbar.navbar-hidden {
+    transform: translateY(-100%);
+}
+
+
+#navbar {
+    background-color: rgb(77, 1, 1);
+    box-shadow: 0px 0px 5px 1px rgb(240, 1, 1);
+    transition: transform 0.3s ease;
+}
+
+#navbar.navbar-hidden {
+    transform: translateY(-100%);
+    transition: transform 0.3s ease;
+}
