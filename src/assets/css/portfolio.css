@@ -73,3 +73,30 @@
     top: 40%;
     opacity: .75;
   }
+
+  .curriculum {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 2px solid rgb(167, 0, 0);
+    border-radius: 10px;
+    width: 200px; /* Ancho específico para la sección */
+    margin: 10px auto; /* Centrar la sección en la página */
+}
+
+.curriculum a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.curriculum a:hover {
+    color: rgb(170, 0, 0);
+}
+
+.curriculum h4 {
+    color: white;
+    margin-top: 10px;
+}
